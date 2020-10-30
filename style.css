@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: transparent!important;
+    outline: none!important;
 }
 
 a:hover {
@@ -69,7 +69,7 @@ a:hover {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
-    background-size: contain!important;
+    background-size: auto!important;
 }
 
 .bg-repeat {
@@ -100,8 +100,9 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 0.7);
 }
+
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -150,7 +151,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: #ee0808;
+    color: #ff0077;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -284,7 +285,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .navbar {
@@ -343,7 +344,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: blue!important;
+    background: transparent!important;
 }
 
 .navbar-toggle .icon-bar {
@@ -404,7 +405,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: #808080!important;
+    background: none!important;
     display: block;
     padding: 14px 15px;
 }
@@ -647,11 +648,11 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn
+{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #201c1c!important;
 }
 
 .container {
@@ -666,6 +667,11 @@ a {
     font-size: 36px;
 }
 
+.highlight {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -677,7 +683,11 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.liststyle a {
+ color: #ffffff;
 }
 
 .tight-width-whitespace {
@@ -763,7 +773,7 @@ h4 {
 }
 
 .service-header {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -785,17 +795,17 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #000000!important;
+    background: #e20e0e;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #f01c27!important;
-    color: #f8f8f8!important;
+    background: #f0821c!important;
+    color: #030000!important;
 }
 
 .ltc-white {
-    color: hsl(108, 93%, 50%)!important;
+    color: #ffffff!important;
 }
 
 .ltc-white:hover {
@@ -803,7 +813,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #3104fc!important;
+    color: #1f00ac!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -811,7 +821,7 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #020211!important;
+    color: #030347!important;
     border-color: #e7e8ec!important;
 }
 
@@ -908,8 +918,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
     .b-parallax {
         background-attachment: scroll;

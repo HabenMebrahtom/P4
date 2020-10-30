@@ -1727,7 +1727,7 @@ a.text-warning:hover {
 
 a.text-danger:focus,
 a.text-danger:hover {
-    color: #843534
+    color: #f70c08
 }
 
 .bg-primary {
@@ -1794,6 +1794,12 @@ ul ol,
 ul ul {
     margin-bottom: 0
 }
+.liststyle {
+    list-style: none;
+    margin-left: -45px;
+}
+
+
 
 .list-unstyled {
     padding-left: 0;
