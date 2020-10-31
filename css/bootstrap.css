@@ -7866,6 +7866,12 @@ button.close {
     display: none !important
 }
 
+.lead { 
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
 @media (max-width:767px) {
     .visible-xs {
         display: block !important
