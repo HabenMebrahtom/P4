@@ -1,0 +1,17 @@
+.lead {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4
+}
+
+.liststyle a {
+    color: #ffffff;
+   }
+
+.liststyle a:hover {
+    font-weight: bold;
+}
+
+
+
